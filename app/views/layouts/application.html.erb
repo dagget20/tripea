@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tripea</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	
+<div class="navbar">
+	<div class="navbar-inner">
+		<%= link_to image_tag("/images/logo.png"), :root, class: "brand" %> 
+	</div>
+</div>
+
+<div id="myCarousel" class="carousel slide">
+	<div class="carousel-inner">
+		<div class="item"> … </div>
+	</div>
+</div>
+
+<%= yield %>
+
+</body>
+</html>
