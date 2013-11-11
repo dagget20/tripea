@@ -4,6 +4,7 @@ class PagesController < ApplicationController
   # GET /pages
   # GET /pages.json
   def index
+    @page = Page.new
     @pages = Page.all
   end
 

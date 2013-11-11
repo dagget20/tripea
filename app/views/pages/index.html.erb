@@ -1,25 +1,19 @@
-<h1>Listing pages</h1>
 
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
+<div>
+	<%= render 'form' %>
+</div>
 
-  <tbody>
-    <% @pages.each do |page| %>
-      <tr>
-        <td><%= link_to 'Show', page %></td>
-        <td><%= link_to 'Edit', edit_page_path(page) %></td>
-        <td><%= link_to 'Destroy', page, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+<div id="description">
+	<h2>What it is Tripea?</h2>
+	<p> Tripea is a new for the discovery where budget can take you for traveling </p>
+</div>
 
-<br>
-
-<%= link_to 'New Page', new_page_path %>
+<div class="row">
+	<div id="explanation" class="span4">
+		<h2>Simplify your Life</h2>
+		<p>Tu viaje soñado en 3 simples pasos</p>
+	</div>
+	<div class="span8">
+		<img src="/images/logo.png">
+	</div>
+</div>
