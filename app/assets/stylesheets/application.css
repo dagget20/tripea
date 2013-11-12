@@ -12,3 +12,22 @@
  *= require_tree .
  */
 
+#description {
+	background-color: #e6e6e6;
+	padding: 25px;
+}
+
+#explanation{
+	background-color: #333;
+	padding: 45px;
+	color: #e6e6e6;
+}
+
+.centerText {
+	text-align:center;
+}
+
+.steps{
+	width: 450px;
+	float:right;
+}
