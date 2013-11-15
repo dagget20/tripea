@@ -85,6 +85,21 @@
 	float:right;
 }
 
+
+
+.headerNav li{
+	display:inline-block;
+	margin: 0 25px 0 25px;
+	padding: 10px;
+	border-left: solid thin;
+}
+
+.headerNav{
+	list-style: none;
+
+
+}
+
 .footerNav{
 	list-style: none;
 	text-align:center;
