@@ -11,12 +11,9 @@
     </div>
   <% end %>
   
-	<p>
-	  <%= f.label :email %>
-	  <%= f.text_field :email, placeholder: "Email address" %>
-	<p>
 	
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+  <%= f.text_field :email, placeholder: "Email address", class:"formInput" %>
+
+  <%= f.submit  "Register", class: "register_button"%>
+  
 <% end %>

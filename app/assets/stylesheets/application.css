@@ -12,6 +12,11 @@
  *= require_tree .
  */
 
+
+#myCarousel{
+	margin-top:-20px;
+}
+
 #description {
 	background-color: #e6e6e6;
 	padding: 25px;
@@ -23,6 +28,54 @@
 	color: #e6e6e6;
 }
 
+#register{
+	padding:10px;
+	width: 100%
+}
+
+#footer{
+	text-align: center;
+	margin: 0px auto;
+	width: 30%;
+}
+
+
+
+
+.icons{
+	list-style: none;
+	text-align:center;
+}
+
+.icons li{
+	display: inline-block;
+	margin: 0 15px 0 15px;	
+}
+
+.icons li a:hover{
+	background-color: transparent;	
+	color: none;
+}
+
+.register_button{
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	width: 150px;
+	height: 50px;
+	background-color: #2799cb;
+	color: #E6E6E6;
+	border: none;
+}
+
+
+.formInput{
+	height:60px;
+	width: 250px;
+	font-size: 25px;;
+}
+
+
 .centerText {
 	text-align:center;
 }
@@ -30,4 +83,17 @@
 .steps{
 	width: 450px;
 	float:right;
+}
+
+.footerNav{
+	list-style: none;
+	text-align:center;
+	margin-top: 25px;
+}
+
+.footerNav li{
+	display:inline-block;
+	margin: 0 25px 0 25px;
+	padding: 10px;
+	border-left: solid thin;
 }
