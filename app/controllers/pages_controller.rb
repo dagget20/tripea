@@ -30,7 +30,7 @@ class PagesController < ApplicationController
     respond_to do |format|
       if @page.save
         format.html { redirect_to @page, notice: 'Page was successfully created.' }
-        format.json { render action: 'show', status: :created, location: @page }
+        format.json { render action: 'root', status: :created, location: @page }
       else
         format.html { render action: 'new' }
         format.json { render json: @page.errors, status: :unprocessable_entity }
@@ -70,6 +70,6 @@ class PagesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def page_params
-      params[:page]
+      params.require(:page).permit(:email)
     end
 end
