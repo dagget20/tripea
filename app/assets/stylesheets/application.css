@@ -126,12 +126,3 @@
 	transform:rotate(180deg);
 }
 
-@font-face
-{
-font-family: myriad;
-src: url('/fonts/MYRIADPRO-REGULAR.otf'), 	
-}
-
-p{
-	font-family:myriad;
-}
