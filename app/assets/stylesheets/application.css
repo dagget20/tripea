@@ -39,6 +39,8 @@
 	width: 30%;
 }
 
+
+
 .descriptionSum{
 	list-style: none;	
 }
@@ -49,6 +51,8 @@
 	font-weight:bold;
 	margin: 20px;
 }
+
+/*Icons del footer*/
 
 .icons{
 	list-style: none;
@@ -65,6 +69,8 @@
 	color: none;
 }
 
+/*Boton del registro*/
+
 .register_button{
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
@@ -77,12 +83,6 @@
 }
 
 
-
-.formInput{
-	height:60px;
-	width: 250px;
-	font-size: 25px;;
-}
 
 
 .centerText {
