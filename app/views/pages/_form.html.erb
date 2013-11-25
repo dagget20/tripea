@@ -11,9 +11,10 @@
     </div>
   <% end %>
   
-	
-  <%= f.text_field :email, placeholder: "Email address", class:"formInput" %>
+ 	<%= f.text_field :name, placeholder: "Name", class:"formInput" %>
+	<%= f.text_field :lastname, placeholder: "Last Name", class:"formInput" %>
+	<%= f.text_field :email, placeholder: "Email address", class:"formInput" %>
 
-  <%= f.submit  "Register", class: "register_button"%>
+  <%= f.submit  "Notify me", class: "register_button"%>
   
 <% end %>

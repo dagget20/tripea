@@ -20,6 +20,7 @@
 #description {
 	background-color: #f5f5f5;
 	padding: 25px;
+	text-align:center;
 }
 
 #explanation{
@@ -39,7 +40,12 @@
 	width: 30%;
 }
 
-
+.descriptionText{
+  width: 75%;
+  max-width: 700px;
+  margin: 35px auto 35px;
+  font-size:16px;
+}
 
 .descriptionSum{
 	list-style: none;	
@@ -80,6 +86,7 @@
 	background-color: #2799cb;
 	color: #E6E6E6;
 	border: none;
+	margin:25px;
 }
 
 
@@ -98,10 +105,13 @@
 
 .headerNav li{
 	display:inline-block;
-	margin: 0 25px 0 25px;
-	padding: 8px;
-	border-left: solid thin;
+	margin: 0 15px 0 15px;
+	padding: 5px;
+	border-left: solid thin;;
+	text-align:center;
+	font-size: 16px;
 }
+
 
 .headerNav{
 	list-style: none;
@@ -118,6 +128,7 @@
 	margin: 0 25px 0 25px;
 	padding: 10px;
 	border-left: solid thin;
+	border-color:#E6E6E6;
 }
 
 .rotationImg{
@@ -126,3 +137,9 @@
 	transform:rotate(180deg);
 }
 
+.floatRight{
+
+	float:right;
+	vertical-align:middle;
+	
+}
