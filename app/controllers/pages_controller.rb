@@ -29,7 +29,7 @@ class PagesController < ApplicationController
 
     respond_to do |format|
       if @page.save
-        format.html { redirect_to @page, notice: 'Page was successfully created.' }
+        format.html { redirect_to 'root', notice: 'Page was successfully created.' }
         format.json { render action: 'pages#index', status: :created, location: @page }
       else
         format.html { render action: 'new' }
