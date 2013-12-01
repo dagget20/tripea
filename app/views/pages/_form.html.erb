@@ -1,20 +1,6 @@
-<%= form_for(@page) do |f| %>
-  <% if @page.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@page.errors.count, "error") %> prohibited this page from being saved:</h2>
-
-      <ul>
-      <% @page.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %>
-  
- 	<%= f.text_field :name, placeholder: "Name", class:"formInput" %>
-	<%= f.text_field :lastname, placeholder: "Last Name", class:"formInput" %>
-	<%= f.text_field :email, placeholder: "Email address", class:"formInput" %>
-
-  <%= f.submit  "Notify me", class: "register_button"%>
-  
+<%= form_tag ("http://tripea.us3.list-manage.com/subscribe/post?u=f0d2283d805f974ee57608665&amp;id=db037ec5e9") do%>
+<%= text_field_tag(:MERGE0, nil, :placeholder => "E-mail") %>
+<%= text_field_tag(:MERGE1, nil, :placeholder => "First Name") %>
+<%= text_field_tag(:MERGE2, nil, :placeholder => "Last Name") %>
+<%= submit_tag("Notify me") %>
 <% end %>
